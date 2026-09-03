@@ -15,8 +15,6 @@ import GamesSection from "@/components/GamesSection";
 import { Reveal, staggerContainer, staggerItem, easeOut } from "@/components/MotionPrimitives";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const TARGET_DATE = new Date("2026-09-07T00:00:00+05:30");
-
 const titleReveal = {
   hidden: {},
   show: {
@@ -292,8 +290,6 @@ export default function HomePage() {
               className="mt-8 w-full max-w-[900px] sm:mt-10"
             >
               <CountdownTimer
-                targetDate={TARGET_DATE}
-                label="Launching In"
                 accentColor="#f5590a"
               />
             </motion.div>
