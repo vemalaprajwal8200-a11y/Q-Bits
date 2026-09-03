@@ -82,7 +82,7 @@ export default function HomePage() {
   const { scrollYProgress: pageProgress } = useScroll();
 
   return (
-    <div className="relative min-h-screen">
+    <div className="page-shell relative">
       {/* Session-gated Powering Core loading screen */}
       <LoadingScreen onComplete={handleLoaderComplete} />
 

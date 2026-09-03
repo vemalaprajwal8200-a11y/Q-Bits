@@ -801,8 +801,45 @@ body::before {
   min-height: calc(var(--vh, 1vh) * 100);
 }
 
+.page-shell {
+  min-height: 100vh;
+  min-height: 100dvh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
 .home-hero {
   background-color: transparent !important;
+}
+
+@media (max-width: 768px), (pointer: coarse) {
+  .about-image-label,
+  .about-stat-card,
+  .about-partner-pill,
+  .timeline-card,
+  .hero-collab-panel,
+  .unbox-parcel-card,
+  .mobile-taskbar {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .about-stat-card,
+  .timeline-card {
+    background: rgba(18, 18, 20, 0.94);
+  }
+
+  .hero-collab-panel,
+  .unbox-parcel-card,
+  .mobile-taskbar {
+    background-color: rgba(12, 12, 18, 0.94);
+  }
+
+  .hero-atom-glow,
+  .background-glow,
+  .overlay-1,
+  .overlay-2 {
+    filter: blur(10px);
+  }
 }
 
 /* ==========================================================================
