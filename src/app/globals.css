@@ -38,6 +38,29 @@ body {
   position: relative;
 }
 
+@media (pointer: coarse) {
+  .members-2d-view .member-card {
+    transition-property: border-color, box-shadow;
+  }
+
+  .members-2d-view .member-card:hover {
+    transform: none;
+  }
+
+  .members-2d-view .member-card-ambient {
+    filter: none;
+  }
+
+  .members-2d-view .member-card-meta {
+    backdrop-filter: none;
+  }
+
+  .members-2d-view .member-card-ring,
+  .members-2d-view .member-card-status-dot {
+    animation: none;
+  }
+}
+
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(245, 89, 10, 0.65) transparent;
