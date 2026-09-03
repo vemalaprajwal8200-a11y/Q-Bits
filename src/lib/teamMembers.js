@@ -166,7 +166,7 @@ export const DOMAINS_DATA = [
         "photoUrl": "/team-photos/ad_03.jpg"
       },
       {
-        "name": "Abhianv Deo",
+        "name": "Abhinav Deo",
         "role": "Member",
         "code": "AD-04",
         "photo": "/team-photos/ad_04.jpeg",

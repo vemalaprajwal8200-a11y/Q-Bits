@@ -58,7 +58,7 @@ export const DOMAINS_DATA = Array.isArray(GENERATED_DOMAINS_DATA) && GENERATED_D
       { name: "Haseena Tawfeeqa", role: "Head", photo: null, photoUrl: null, code: "AD-01", isHead: true },
       { name: "Rifa Anjum", role: "Member", photo: null, photoUrl: null, code: "AD-02" },
       { name: "LD Sai Charan", role: "Member", photo: null, photoUrl: null, code: "AD-03", imagePosition: "50% 18%" },
-      { name: "Abhianv Deo", role: "Member", photo: null, photoUrl: null, code: "AD-04" },
+      { name: "Abhinav Deo", role: "Member", photo: null, photoUrl: null, code: "AD-04" },
       { name: "Karthik S Rao", role: "Member", photo: null, photoUrl: null, code: "AD-05" },
       { name: "Keerthana Bhat", role: "Member", photo: null, photoUrl: null, code: "AD-06" },
       { name: "D Ganesh", role: "Member", photo: null, photoUrl: null, code: "AD-07" },

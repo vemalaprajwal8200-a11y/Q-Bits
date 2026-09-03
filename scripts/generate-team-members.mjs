@@ -81,7 +81,7 @@ const DOMAINS_DATA = [
       { name: 'Akshata Choudi', role: 'Head', code: 'AD-01', isHead: true },
       { name: 'Rifa Anjum', role: 'Member', code: 'AD-02' },
       { name: 'LD Sai Charan', role: 'Member', code: 'AD-03', imagePosition: '50% 18%' },
-      { name: 'Abhianv Deo', role: 'Member', code: 'AD-04' },
+      { name: 'Abhinav Deo', role: 'Member', code: 'AD-04' },
       { name: 'Karthik S Rao', role: 'Member', code: 'AD-05' },
       { name: 'Keerthana Bhat', role: 'Member', code: 'AD-06' },
       { name: 'D Ganesh', role: 'Member', code: 'AD-07' },
