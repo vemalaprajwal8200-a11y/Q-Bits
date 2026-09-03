@@ -102,7 +102,7 @@ export default function HomePage() {
           <section
             ref={sectionRef}
             id="home"
-            className="brochure-section home-hero relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden bg-transparent px-5 pt-28 pb-28 text-[#F2F2F2] sm:min-h-screen sm:px-6 sm:pt-32 sm:pb-24"
+            className="brochure-section viewport-section home-hero relative flex flex-col items-center justify-center overflow-hidden bg-transparent px-5 pt-28 pb-28 text-[#F2F2F2] sm:px-6 sm:pt-32 sm:pb-24"
           >
           <div
             aria-hidden

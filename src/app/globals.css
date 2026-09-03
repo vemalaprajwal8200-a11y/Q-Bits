@@ -3,6 +3,7 @@
 html {
   scroll-behavior: smooth;
   background: #0a0a0a;
+  overflow-x: clip;
 }
 
 :root {
@@ -33,7 +34,7 @@ body {
   font-family: var(--font-geist-sans), sans-serif;
   background: var(--background);
   color: var(--foreground);
-  overflow-x: hidden;
+  overflow-x: clip;
   position: relative;
 }
 
@@ -792,6 +793,12 @@ body::before {
 
 .brochure-section {
   border-left: 3px solid var(--accent);
+}
+
+.viewport-section {
+  min-height: 100vh;
+  min-height: 100dvh;
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 .home-hero {
@@ -3626,8 +3633,10 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: 100;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  height: 100dvh;
+  height: calc(var(--vh, 1vh) * 100);
   overflow: hidden;
   background: #050505;
 }
@@ -4070,8 +4079,10 @@ body::before {
 }
 
 .members-3d-viewport:fullscreen {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
+  height: 100dvh;
+  height: calc(var(--vh, 1vh) * 100);
   max-width: none;
   max-height: none;
   border: 0;
